@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Jinho Talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
-        <span>서비스 이외 지역</span>
+        <span>서비스 이외 지역 </span><i class="fas fa-wifi"></i>
       </div>
-      <!--To Do : Wifi Icon-->
+
       <div class="status-bar__column">
         <span>16:06</span>
       </div>
       <div class="status-bar__column">
-        <span>450%</span>
-        <!--bettery Icon-->
-        <!--라이트 Icon-->
+        <i class="fas fa-unlock-alt"></i>
+       </i> <span>450%</span><i class="fas fa-battery-half"></i> <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+
+<header class="welcome-header">
+    <h1 class="welcome-header__title">어서오세요 진호Talk입니다</h1>
+    <p class="welcome-header__text">만약 이미 아이디가 있다면, 전화번호 또는 이메일을 입력하여 로그인 해 주세요</p>
+</header>
+
+<form id="login-form">
+    <input type="text" required placeholder="E-mail 또는 전화번호">
+    <input type="password" required placeholder="비밀번호">
+    <input type="submit" value= "로그인">
+    <input type="submit" value= "회원가입">
+    <a href="#">ID 또는 비밀번호 찾기</a>
+</form>
+
+
+
+    <script
+      src="https://kit.fontawesome.com/a123f05eaf.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
